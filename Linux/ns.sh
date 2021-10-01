@@ -1,8 +1,8 @@
 #!/bin/bash
 
-USERAGENT=
-NATION1=
-PASSWORD1=
+USERAGENT=YourUserAgent
+NATION1=YourNationName
+PASSWORD1=YourNationPassword
 
 
 if curl --fail -H "X-Password: $PASSWORD" -A "$USERAGENT" "https://www.nationstates.net/cgi-bin/api.cgi?nation=$NATION1&q=ping"; then
