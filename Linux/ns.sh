@@ -9,6 +9,6 @@ if curl --fail -H "X-Password: $PASSWORD" -A "$USERAGENT" "https://www.nationsta
         echo "Success"
 	xmessage -center "Successful log into $NATION1!"
 else
-        echo "Failed to Log into $NATION1"
+        echo "Fail"
 	xmessage -center "Failed to Log into $NATION1"
 fi;
