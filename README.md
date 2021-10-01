@@ -1,6 +1,8 @@
 # autoLoginNS
 automatically log into your NS nations to avoid CTE.
 
+Do Not Hesitate to send pull requests if you have suggestions!!
+
 # How to use
 
 ## Windows
