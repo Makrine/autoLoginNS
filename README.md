@@ -55,5 +55,5 @@ on **Linux** cURL is pre-installed.
 For **Windows** follow the [tutorial](https://developer.zendesk.com/documentation/developer-tools/getting-started/installing-and-using-curl/#installing-curl)
 
 # WARNING
-**You can only set 50 nations! If you set more than thet you will get an error and be banned for making more requests for 15 minutes**
 **Please read about [Rate Limits](https://www.nationstates.net/pages/api.html#ratelimits)**
+**If you add too many nations you may get banned for 15 min for sending too many requests. I am currently working on this rate limit**
