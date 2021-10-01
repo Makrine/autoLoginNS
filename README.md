@@ -56,4 +56,11 @@ For **Windows** follow the [tutorial](https://developer.zendesk.com/documentatio
 
 # WARNING
 **Please read about [Rate Limits](https://www.nationstates.net/pages/api.html#ratelimits)**
-**If you add too many nations you may get banned for 15 min for sending too many requests. I am currently working on this rate limit**
+**If you add too many nations you may get banned for 15 min for sending too many requests. I am currently working on this rate limit.**
+
+**See updates bellow**
+
+
+# Rate Limits
+
+1/10/2021 - On Linux the script takes 1-1.71 seconds to log into ONE nation. Which means in 30 seconds it can log into 17-30 nations.
