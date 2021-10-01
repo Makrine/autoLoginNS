@@ -51,4 +51,5 @@ To add more nations just copy paste everything except the very first line and th
 ## Installing cURL
 
 on **Linux** cURL is pre-installed.
-on **Windows** follow the [tutorial](https://developer.zendesk.com/documentation/developer-tools/getting-started/installing-and-using-curl/#installing-curl)
+
+For **Windows** follow the [tutorial](https://developer.zendesk.com/documentation/developer-tools/getting-started/installing-and-using-curl/#installing-curl)
