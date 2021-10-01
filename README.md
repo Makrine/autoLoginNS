@@ -56,4 +56,4 @@ For **Windows** follow the [tutorial](https://developer.zendesk.com/documentatio
 
 # WARNING
 **You can only set 50 nations! If you set more than thet you will get an error and be banned for making more requests for 15 minutes**
-**Please read about [Rate Limits](https://www.nationstates.net/pages/api.html#ratelimits)
+**Please read about [Rate Limits](https://www.nationstates.net/pages/api.html#ratelimits)**
