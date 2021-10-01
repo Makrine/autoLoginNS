@@ -63,4 +63,6 @@ For **Windows** follow the [tutorial](https://developer.zendesk.com/documentatio
 
 # Rate Limits
 
-1/10/2021 - On Linux the script takes 1-1.71 seconds to log into ONE nation. Which means in 30 seconds it can log into 17-30 nations.
+**1/10/2021** - On Linux the script takes 1-1.71 seconds to log into ONE nation. Which means in 30 seconds it can log into 17-30 nations;
+
+Tested on 50 nations (on Linux). It took 52 seconds! So basically it is impossible to exceed the rate limit on my computer. I don't know how it will work on other machines though. My CPU is Ryzen 7 3750H
