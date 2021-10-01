@@ -74,3 +74,9 @@ endlocal
 ```
 
 *"NATION1" variable is called 3 times in the code, "PASSWORD1" is called once and "USEAGENT" is called once. You just need to edit NATION1 and PASSWORD1 variables in the copy-pasted code*
+
+
+## Linux
+
+1) Download Linux folder
+2) 
