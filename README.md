@@ -41,7 +41,7 @@ Just copy paste everything from ```setlocal``` to ```endlocal``` except USERAGEN
 
 4) put ns.sh into startup.
 
-* If you're using Ubuntu just search for "Startup Applications" and add it to there.On other distros find some online tutorial how to add files to startup.
+* If you're using Ubuntu just search for "Startup Applications" and add it there. On other distros find some online tutorial how to add files to startup.
 
 **Adding more nations**
 
