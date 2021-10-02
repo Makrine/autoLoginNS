@@ -34,7 +34,7 @@ Just copy paste everything from ```setlocal``` to ```endlocal``` except USERAGEN
 ## Linux
 
 1) Download Linux folder
-2) Make sure you give persmissions to the file (chmod 777)
+2) Make sure you give persmissions to ns.sh (chmod 777)
 3) Open ns.sh and change
 
 * YourUserAgent to your user agent (e.g. your email address. [see the API documentation](https://www.nationstates.net/pages/api.html#terms))
