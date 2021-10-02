@@ -1,6 +1,7 @@
 #!/usr/bin/bash
 
 # output files for USERAGENT and NATION/PASSWORD
+# WARNING password is NOT encrypted! User agent, nation names and passwords are saved in a plain text. I will work on that in the near future
 agentFile="agent"
 namepassFile="namepass"
 
