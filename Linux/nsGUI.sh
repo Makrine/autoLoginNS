@@ -1,7 +1,6 @@
 #!/usr/bin/bash
 
 # output files for USERAGENT and NATION/PASSWORD
-# WARNING password is NOT encrypted! User agent, nation names and passwords are saved in a plain text. I will work on that in the near future
 agentFile="agent"
 namepassFile="namepass"
 
@@ -54,7 +53,7 @@ moreNations () {
         nationCredentials
     fi
 }
-# check if the new nation name is already added
+
 nationInFile () {
     if grep -q $1 $namepassFile
     then
@@ -103,9 +102,20 @@ else
 
     echo $AGENT > $agentFile
     if [ -f "$namepassFile" ]; then
-        rm namepass
-    fi
+        echo "$namepassFile exists"
+        # read line by line and log into all of them
+        while IFS= read -r NamePass
+        do
+            echo "$NamePass"
+            NATION=`echo $NamePass | cut -d"|" -f 1`
+            PASSWORD=`echo $NamePass | cut -d"|" -f 2`
 
-    nationCredentials
+            request $AGENT $NATION $PASSWORD
+        done < "$namepassFile"
+
+        moreNations
+    else
+        nationCredentials
+    fi
 
 fi
